@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "152598659041",
+    "project_id": "trainmessage",
+    "storage_bucket": "trainmessage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152598659041:android:2c66c0e93a3ba370115ca0",
+        "android_client_info": {
+          "package_name": "com.lakue.trainmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152598659041-ucjs2l5efg8nbbp7f45imn88hn0h3v30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lakue.trainmessage",
+            "certificate_hash": "98a4732962e2590b867ddc9643d62f2359dd8cc4"
+          }
+        },
+        {
+          "client_id": "152598659041-kpnio0amuhjckthli5okha1meq9ib75e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdk0FjH6ZV10j9pRH8ICZr62BCawf7xhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152598659041-kpnio0amuhjckthli5okha1meq9ib75e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
