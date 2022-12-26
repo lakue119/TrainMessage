@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">TrainMessage</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="admop_key">ca-app-pub-3119047800239181~7913646470</string>
+    <string name="admob_banner_key">ca-app-pub-3119047800239181/2576741072</string>  <!--   실제 배너-->
+    <!--    <string name="admob_app_start_key">ca-app-pub-3940256099942544/3419835294</string>  &lt;!&ndash;   앱 실행 테스트 광고&ndash;&gt;-->
+    <!--        <string name="admob_front_key">ca-app-pub-3940256099942544/1033173712</string>  &lt;!&ndash;   테스트 전면광고&ndash;&gt;-->
+    <!--        <string name="admob_banner_key">ca-app-pub-3940256099942544/6300978111</string>  &lt;!&ndash;   테스트 배너&ndash;&gt;-->
+
+    <string name="admob_app_reward">ca-app-pub-3119047800239181/4680160235</string>  <!--   앱 실행 광고-->
+    <string name="admob_app_reward_test">ca-app-pub-3940256099942544/5224354917</string>  <!--   앱 실행 광고-->
+
+<!--    <string name="facebook_banner_place_id">838335167425298_838337767425038</string>  &lt;!&ndash;   페이스북 배너 광고&ndash;&gt;-->
+<!--    <string name="facebook_reward_place_id">838335167425298_838894080702740</string>  &lt;!&ndash;   페이스북 보상형 광고&ndash;&gt;-->
+
 </resources>
