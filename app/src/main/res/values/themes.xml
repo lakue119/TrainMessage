@@ -22,4 +22,11 @@
     <style name="Theme.TrainMessage.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TrainMessage.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DefaultNumberPickerTheme" parent="Theme.TrainMessage">
+        <item name="colorControlNormal">@color/transparent</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
 </resources>
