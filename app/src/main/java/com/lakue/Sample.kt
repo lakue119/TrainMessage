@@ -18,7 +18,7 @@ val trainInfo = arrayListOf(
     TrainDto("분당선", "1544-7769"),
 )
 
-val messate = arrayListOf(
+val message = arrayListOf(
     "너무 더워요. 에어컨좀 틀어주세요!",
     "너무 추워요. 히터좀 틀어주세요!",
     "너무 더워요. 에어컨좀 줄여주세요!",
