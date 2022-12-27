@@ -33,6 +33,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private val messageLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+        if(it.resultCode == RESULT_OK){
+            val data = it.data?.getStringExtra("message")
+            binding.etMessage.setText(data)
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -48,6 +55,14 @@ class MainActivity : AppCompatActivity() {
                     Intent(
                         this@MainActivity,
                         SelecLineTypeActivity::class.java
+                    )
+                )
+            }
+            tvMessageSample.setOnClickListener {
+                messageLauncher.launch(
+                    Intent(
+                        this@MainActivity,
+                        SampleMessageActivity::class.java
                     )
                 )
             }

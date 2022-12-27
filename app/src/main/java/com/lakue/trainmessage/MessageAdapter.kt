@@ -6,12 +6,15 @@ import androidx.recyclerview.widget.RecyclerView
 import com.lakue.message
 import com.lakue.trainmessage.databinding.ViewMessageBinding
 
-class MessageAdapter: RecyclerView.Adapter<MessageViewHolder>() {
+class MessageAdapter(
+    val listener: SampleMessageActivity.OnMessageListener
+): RecyclerView.Adapter<MessageViewHolder>() {
     val Tag = MessageAdapter::class.java.name
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessageViewHolder {
         return MessageViewHolder(
-            ViewMessageBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            ViewMessageBinding.inflate(LayoutInflater.from(parent.context), parent, false),
+            listener
         )
     }
 
