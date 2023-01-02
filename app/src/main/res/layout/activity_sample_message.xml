@@ -65,21 +65,4 @@
 
     </androidx.core.widget.NestedScrollView>
 
-    <Button
-        android:foreground="@drawable/ripple_radius10"
-        android:id="@+id/btnAddCalculator"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/shape_radius10"
-        android:text="문자 보내기"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        app:backgroundTint="@color/purple2_800"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
